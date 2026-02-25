@@ -1,12 +1,12 @@
 # Customer Churn Prediction
 
-A hypothesis-driven machine learning project to identify customers at high risk of churning — and translate that risk into actionable retention strategies.
+A hypothesis-driven machine learning project to identify customers at high risk of churning and translate that risk into actionable retention strategies.
 
 ---
 
 ## Why This Project Exists
 
-Acquiring a new customer costs significantly more than retaining an existing one. In competitive markets, churn is one of the most direct threats to business sustainability. The goal here is not just to build a model that predicts churn — it is to build something that actually helps a business decide *who to act on, and when*.
+Acquiring a new customer costs significantly more than retaining an existing one. In competitive markets, churn is one of the most direct threats to business sustainability. The goal here is not just to build a model that predicts churn, but also is to build something that actually helps a business decide *who to act on, and when*.
 
 This distinction matters. A model with 90% accuracy that misses most churners is useless in practice. This project is built around that reality.
 
@@ -85,7 +85,6 @@ Customer-Churn-Project/
 │   ├── random_forest.pkl
 │   └── gradient_boosting.pkl
 │
-├── reports/
 ├── requirements.txt
 └── README.md
 ```
@@ -169,7 +168,7 @@ The model is also trained on a static snapshot. Customer behavior changes over t
 
 ```bash
 # Clone the repo
-git clone https://github.com/Susil4533/Customer-Churn-Project-.git
+https://github.com/Susil4533/Customer-Churn-Project-.git
 cd Customer-Churn-Project-
 
 # Create and activate virtual environment
